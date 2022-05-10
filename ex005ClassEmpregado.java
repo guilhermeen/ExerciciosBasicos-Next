@@ -58,10 +58,4 @@ public class Empregado(){
     public void setSalario(){
         this.salario=salario;
     }
-
-
-
-
-
-
 }
