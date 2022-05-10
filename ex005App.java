@@ -12,4 +12,4 @@ class App {
         //Novo salario
         System.out.println(getSalario);
     }
-} 
+}
