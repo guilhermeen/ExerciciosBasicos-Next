@@ -18,9 +18,7 @@ public class Empregado(){
 
     //Metodo para aumentar o salario em 10%
     public void aumento(salario){
-        int novoSalario=0;
-        novoSalario=this.salario + (this.salario*0.10)
-        salario=novoSalario;
+        this.salario+=this.salario*0.10;
     }
 
 
@@ -29,7 +27,7 @@ public class Empregado(){
         return identidade;
     }
     public void setIdentidade(){
-        identidade = (getNome+getSobrenome);
+        identidade = (getNome()+getSobrenome());
     }
     
     
